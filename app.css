@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #457b9d;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 900px;
+    display: flex;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 2rem;
+    color: white;
+}
