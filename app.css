@@ -14,6 +14,8 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     width: 900px;
     display: flex;
     text-align: center;
@@ -22,4 +24,23 @@ body {
 .paragraph {
     font-size: 2rem;
     color: white;
+    width: 900px;
+    width: 100%;
 }
+
+#next-btn {
+    padding: .8rem 1.6rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    border-radius: .3rem;
+    outline: none;
+    border: none;
+    background-color: #044166;
+    color: white;
+    margin: 1.5rem 0;
+}
+
+/* img {
+    width: 100px;
+} */
